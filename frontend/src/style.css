@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; background: #f3f4f6; }
+button { font-family: inherit; }
+textarea, input, select { font-family: inherit; }
+/* Scrollbar styling for grids */
+div::-webkit-scrollbar { width: 8px; height: 8px; }
+div::-webkit-scrollbar-track { background: #1f2937; border-radius: 4px; }
+div::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
+div::-webkit-scrollbar-thumb:hover { background: #4b5563; }
